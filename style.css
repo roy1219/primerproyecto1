@@ -3,6 +3,13 @@ body {
   background-color: #adcfa2;
 }
 
+
+.img{
+
+  max-width: 60;
+  
+  }
+
 li{
   display: inline;
 }
@@ -23,7 +30,7 @@ li{
 }
 
 .navbar{
-  width: 81%;
+  width: 78%;
   text-align: center;
   color: #025157;
   font-weight: 500;
@@ -100,3 +107,45 @@ button {
   padding-right: 10%;
 
 }
+
+.comercial h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.comercial > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.comercial > form {
+  display: flex;
+}
+
+.comercial > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.logo{
+
+padding-left: 0%;
+padding-top: 0;
+max-width: 100px;
+
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  
+   
+}
+
+
+
+
