@@ -1,70 +1,102 @@
-body{
+body {
+  background-color: #fffbf7;
+  background-color: #adcfa2;
+}
 
-background-color: #fffbf7;
+li{
+  display: inline;
+}
 
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+  font-family: sans-serif;
+  /* height: 45px; */
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+.navbar{
+  width: 81%;
+  text-align: center;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions{
+  display: inline;
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 h1 {
-    color: #46484c;
-    text-align: center;
+  color: #46484c;
+  text-align: center;
+}
 
-  }
-
-  p {
-    color: #8b8b8bcc;
-    font-family: verdana;
-    font-size: 20px;
+p {
+  color: #8b8b8bcc;
+  font-family: verdana;
+  font-size: 20px;
 }
 
 button {
-    color: #fff;
-    background-color: #025157;
+  color: #fff;
+  background-color: #025157;
 }
 
+.promocion{
+  color: #8b8b8bcc;
+}
 
-.header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
-    height: 45px;
-    font-family: sans-serif;
-  }
-  
-  .navbar {
-    width: 70%;
-    text-align: center;
-    color: #025157;
-  }
-  
-  .menu-item {
-    display: inline;
-    margin-right: 25px;
-    margin-left: 25px;
-  }
-  
-  .actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-  }
-  
-  .actions > * {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-  
-  .actions a {
-    color: #67b54b;
-  }
-  
-  .actions button {
-    color: white;
-    background-color: #67b54b;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border: 0;
-    border-radius: 5px;
-  }
+#subtitulo{
+  color: #46484c;
+}
+
+#main{
+  align-items: center;
+  text-align: center;
+}
+
+#btn-free-trial{
+  background-color: #67b54b;
+  color: white;
+}
+
+.btn{
+  color: #fff;
+  background-color: #025157;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 5px;
+}
+
+#actions-sign-in{
+  color: #67b54b;
+}
+
+.actions > *{
+  margin: 45px 10px;
+}
+
+#logo{
+  width: 15%;
+}
+
+.video{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
